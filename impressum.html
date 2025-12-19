@@ -3,49 +3,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Impressum</title>
+    <title>Impressum - Fürstenberg</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalnia:wght@100..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">   
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <main class="impressum">
-        <h1>Impressum</h1>
+    <header>
+        <div class="header-container">
+            <div class="logo-wrapper">
+                <a href="index.html">
+                    <img src="./images/logo.svg" alt="Fürstenberg Logo"/>
+                </a>
+            </div>
+            <nav class="header-nav">
+                <a href="index.html#sortiment">Sortiment</a>
+                <a href="index.html#wochenmarkte">Wochenmärkte</a>
+                <a href="index.html#kontakt">Kontakt</a>
+            </nav>
+            <button class="mobile-menu-toggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+        <nav class="mobile-nav">
+            <a href="index.html#sortiment">Sortiment</a>
+            <a href="index.html#wochenmarkte">Wochenmärkte</a>
+            <a href="index.html#kontakt">Kontakt</a>
+        </nav>
+    </header>
 
-        <h2>Angaben gemäß § 5 TMG</h2>
-        <p>
-        Fürstenberg Obst · Gemüse · Blumen<br>
-        Dyke Fürstenberg<br>
-        An de Beek 2<br>
-        24977 Langballig<br>
-        Deutschland
-        </p>
+    <main class="legal-page">
+        <div class="legal-container">
+            <h1>Impressum</h1>
 
-        <h2>Kontakt</h2>
-        <p>
-        Telefon: +49 160 000 0000<br>
-        E-Mail: example@gmail.com
-        </p>
+            <section class="legal-section">
+                <h2>Anbieter:</h2>
+                <p>Obst · Gemüse · Blumen - Dyke Fürstenberg<br>
+                An de Beek 2,<br>
+                24977 Langballig</p>
+            </section>
 
-        <h2>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV</h2>
-        <p>
-        Dyke Fürstenberg<br>
-        An de Beek 2<br>
-        24977 Langballig
-        </p>
+            <section class="legal-section">
+                <h2>Kontakt:</h2>
+                <p>Telefon: +49 174 5398931</p>
+            </section>
 
-        <h2>Haftung für Inhalte</h2>
-        <p>
-        Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen.
-        </p>
+            <section class="legal-section">
+                <h2>Verantwortlich für den Inhalt gemäß § 55 Abs. 2 RStV:</h2>
+                <p>Dmytro Oliinyk<br>
+                Telefon: +49 160 515 3248</p>
+            </section>
 
-        <h2>Haftung für Links</h2>
-        <p>
-        Unser Angebot enthält Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen.
-        </p>
+            <section class="legal-section">
+                <h2>Haftungsausschluss:</h2>
+                <p>Die Inhalte dieser Website wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität übernehmen wir jedoch keine Gewähr.<br><br>
+                Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von Rechtsverletzungen werden wir die entsprechenden Inhalte umgehend entfernen.<br><br>
+                Für Inhalte externer Links übernehmen wir keine Haftung. Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich.</p>
+            </section>
 
-        <h2>Urheberrecht</h2>
-        <p>
-        Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Beiträge Dritter sind als solche gekennzeichnet.
-        </p>
+            <section class="legal-section">
+                <h2>Kontakt bei Beanstandungen oder rechtlichen Problemen:</h2>
+                <p>Bitte kontaktieren Sie uns direkt unter:<br>
+                <a href="mailto:d.oliynyk@outlook.com">d.oliynyk@outlook.com</a><br>
+                Telefon: +49 160 515 3248</p>
+                <p>Wir bemühen uns, Probleme schnell und unkompliziert zu klären.</p>
+            </section>
+
+            <div class="legal-back-link">
+                <a href="index.html">← Zurück zur Startseite</a>
+            </div>
+        </div>
     </main>
+
+    <footer>
+        <div>
+            <a href="impressum.html">Impressum</a> | <a href="datenschutz.html">Datenschutz</a>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const menuToggle = document.querySelector('.mobile-menu-toggle');
+            const mobileNav = document.querySelector('.mobile-nav');
+            
+            if (menuToggle && mobileNav) {
+                menuToggle.addEventListener('click', function() {
+                    mobileNav.classList.toggle('active');
+                });
+                
+                mobileNav.querySelectorAll('a').forEach(link => {
+                    link.addEventListener('click', function() {
+                        mobileNav.classList.remove('active');
+                    });
+                });
+            }
+        });
+    </script>
 </body>
 </html>
