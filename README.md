@@ -44,18 +44,6 @@ That’s all — the site runs without any additional setup.
 
 ---
 
-## 📁 Project Structure
-
-wochenmarkt-site/
-├── images/           # Images used on the website
-├── index.html        # Main page
-├── style.css         # Styles
-├── impressum.html    # Legal notice
-├── datenschutz.html  # Privacy policy
-└── README.md
-
----
-
 ## 🌍 Deployment
 
 The site can be deployed using any static hosting service, such as:
